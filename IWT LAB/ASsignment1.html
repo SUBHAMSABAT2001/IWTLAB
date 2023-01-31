@@ -1,0 +1,223 @@
+<DOCTYPE!>
+<html>
+	<head>
+		<title>Protfolio</title>
+		<style>
+			body{
+					/* background: linear-gradient(142deg, rgb(69, 34, 207) 0%, rgb(150, 146, 199) 0%, rgb(44, 60, 207) 64%); */
+					background-color: antiquewhite;
+					margin-left: 159px;
+					margin-right: 159px;
+					margin-top: 30px;
+					margin-bottom: 30px;
+					padding: 20px;
+					border-style: solid;
+					border-width: 3px;
+					border-left-width: 7px;
+					border-right-width: 7px;
+					border-color: black;
+					border-radius: 10px;
+			}
+			.row{
+				margin-bottom: 50px;
+			}
+
+			
+			#name{
+					padding: 10px;
+					margin: 10px;
+				}
+			#title{
+					padding: 3px;
+					margin: 32px;
+				}
+			.dp{
+					width: 170px;
+					height: 170px;
+					border-radius: 200px;
+					display: block;
+					margin-left: auto;
+					margin-right: auto; 
+					position: relative;
+					margin-top: -8px;
+				}
+				#info{
+					text-align: right;
+					margin: auto;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: -160px;
+				}
+			#eD{
+					width: 99%;
+					border-spacing: 2px;
+					text-align: center;
+					
+				}
+			h2{
+					background-color: black;
+					color: white;
+					border-radius: 0px;
+					padding: 20px 20px;
+			}
+			.navbar-nav {
+				overflow: hidden;
+				background-color: #000000;
+			  }
+			  
+			  .navbar-nav a {
+				float: left;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 24px 24px;
+				text-decoration: none;
+				font-size: 17px;
+				
+			  }
+			  
+			  .navbar-nav a:hover {
+				background-color: rgb(57, 240, 11);
+				color: rgb(212, 23, 23);
+			  }
+			  
+			  .navbar-nav a.active {
+				background-color:skyblue;
+				color: white;
+			  }
+		</style>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+	<div class="row">
+		<div class="column">
+			<h1 id="name">SUBHAM SABAT</h1>
+		</div>
+		<div class="column">
+			<img class="dp" src="dp.jpg">
+		</div>
+		<div class="column" id="info">
+			<p><i class="fa fa-envelope"></i><a href="subhamsabat8091@gmail.com"> subhamsabat8091@gmail.com</a></p>
+			<p><i class="fa fa-linkedin"></i><a href="##"> Linkedin</a></p>
+			<p><i class="fa fa-github"></i><a href="##"> Github</a></p>
+			<p><i class="fa fa-phone"></i><a href="tel:+91 7205199178"> +917205199178</a></p>
+
+		</div>
+	</div>
+		<hr><br>
+			<div class="navbar-nav">
+				<div class="nav-item">
+					<a class="nav-link" href="#objective">Objective</a>
+				</div>
+				<div class="nav-item">
+					<a class="nav-link" href="#education">Education</a>
+				</div>
+				<div class="nav-item">
+					<a class="nav-link" href="#experience">Experience</a>
+				</div>
+				<div class="nav-item">
+					<a class="nav-link" href="#projects">Projects</a>
+				</div>
+				<div class="nav-item">
+					<a class="nav-link" href="#skills">Skills</a>
+				</div>
+				<div class="nav-item">
+					<a class="nav-link" href="#achievements">Achievements</a>
+				</div>
+				<div class="nav-item">
+					<a class="nav-link" href="#certifications">Certification</a>
+				</div>
+				<div class="nav-item">
+					<a class="nav-link" href="#languages">Languages</a>
+				</div>
+			</div>
+	<div class="objective" id="objective">
+		<h2><i class="fa fa-star"></i> Objectives</h2>
+			<p><b>Seeking a Challenging role at a reputed IT Organization to utilize my engineering skill that can contribute to the company growth as well as enhance my knowledge by exploring new things.</b></p>
+	</div>
+	<div class="education" id="education">
+		<h2 id="EdTl"><i class="fa fa-institution"></i> Educational Qualification</h2>
+		<table id="eD" border="1" cellpadding=4 cellspacing=3>
+			<tr>
+				<th>Qualification</th><th>Institution</th><th>Year of Passing</th><th>Board</th>
+			</tr>
+			<tr>
+				<th>B.Tech</th><td>Silicon Institute Of Technology</td><td>2024</td><td>BPUT</td>
+			</tr>
+			<tr>
+				<th>12th</th><td>Government H.S School,Rourkela,Odisha</td><td>2019</td><td>CHSE</td>
+			</tr>
+			<tr>
+				<th>10th</th><td>CAMIE & RESEARCH,Jharsuguda,Odisha</td><td>2017</td><td>BSE</td>
+			</tr>
+		</table>
+	</div>
+	<div class="experience" id="experience">
+		<h2><i class="fa fa-briefcase"></i> Work Experience/Internships</h2>
+			<ol><li><b>Basic Python programming(Syllogistek System Private Limited)</b></li><br>
+			<li><b>Full Stack Development With Django Framework(DivineAI Private Limited)</b></li></ol>
+
+	</div>
+	<div class="projects" id="projects">
+		<h2> <i class="fa fa-code"></i> Projects</h2>
+		 <ol type="1">
+			<li><b>Hospital Management Website</b> | HTML , CSS , JavaScript ,Bootstrap , Django
+			<ul>
+				<br><li>An online healthcare platform that acts as a interface between the user and the hospital.
+				</li><br>
+				<li>It display the patients list,doctors working there, number of appointments made, number of queries and
+					admin can edit all the data.</li><br>
+			</ul></li><br>
+			<li><b>Resturant Website </b> | HTML , CSS , JavaScript ,Bootstrap
+				<ul>
+					<br><li>This is fairly a basic multi-page responsive website of a fictitious restaurant, which can be used as a
+						template for building restaurant portfolio websites.						
+					</li><br>
+					<li>It showcases the basic features of a restaurant such as main seating area,google location,menu
+						categories,working hours and reviews.</li>
+				</ul></li>
+				<br><li><b>Personal Portfolio</b> | HTML , CSS , JavaScript ,Bootstrap
+					<ul>
+						<br><li>Simple portfolio website built using HTML ,CSS ,JavaScript ,Bootstrap.						
+						</li>
+					</ul></li>
+		 </ol>
+	</div> 
+	<div class="skills" id="skills">
+		 <h2><i class="fa fa-tasks"></i> Technical Skills</h2>
+		 <ul>
+			<li><b>Web Development</b></li>
+			<li><b>C</b></li>
+			<li><b>C++</b></li>
+			<li><b>Python</b></li>
+			<li><b>Database Management System</b></li>
+			<li><b>Django Framework</b></li>
+			<li><b>GitHub</b></li>
+			<li><b>Git</b></li>
+		 </ul>
+	</div>
+	<div class="achievements" id="achievements">
+		 <h2><i class="fa fa-trophy"></i> Achievements</h2>
+			<ul>
+				<li>Awarded<b> Certificate of Excellence</b>for outstanding performance in <b>National Engineering Olympaid 5.0</b> with <b>AIR 19</b> in Second Year Engineering conducted in January 2022.</li>
+				<br><li>Global Rank<b> 755 </b> in CodeChef September Long 2022 Division 4 Among 3000+ participants.</li>
+			</ul>
+	</div>
+	<div class="certifications" id="certifications">
+		<h2><i class="fa fa-certificate"></i> Certifications</h2>
+			<ul>
+				<li><b>HTML, CSS, and Javascript for Web Developers(Coursera)</b></li>
+				<li><b>Basic Python programming(Syllogistek System Private Limited)</b></li>
+				<li><b>Full Stack Development With Django Framework(DivineAI Private Limited)</b></li>
+			</ul>
+	</div>
+	<div class="languages" id="languages">
+		<h2><i class="fa fa-language"></i> Languages</h2>
+			<ul><li>English</li>
+				<li>Hindi</li>
+				<li>Odia</li>
+			</ul>
+	</div>
+		<a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+	</body>
+</html>
